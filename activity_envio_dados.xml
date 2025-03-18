@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EnvioDados">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Formulário Envio de dados"
+        android:textSize="26sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#8B4513" />
+
+    <EditText
+        android:id="@+id/campoTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:hint="Escreva aqui..."/>
+
+    <Button
+        android:id="@+id/botaoEnviar"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#8B4513"
+        android:text="Clique para enviar"
+        app:cornerRadius="0dp"/>
+
+</LinearLayout>
